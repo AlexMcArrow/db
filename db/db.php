@@ -4,11 +4,11 @@
  * @copyright Alex McArrow 2013
  * @author Alex McArrow
  * @package DB
- * @version 1.41
+ * @version 1.41.1
  */
-namespace DB; 
+namespace DBI; 
  
-class DB {
+class MySQL {
 
     private static $LINK;
     private static $DBNAME;
