@@ -4,7 +4,7 @@
  * @copyright Alex McArrow 2013
  * @author Alex McArrow
  * @package DB
- * @version 1.41.4
+ * @version 1.42
  */
 namespace DBI; 
  
@@ -103,7 +103,7 @@ class MySQL {
     }
 
     private static function _connect () {
-        self::$LINK = new mysqli (self::$DSN['host'], self::$DSN['user'], self::$DSN['pass'], self::$DSN['base']);
+        self::$LINK = new \mysqli (self::$DSN['host'], self::$DSN['user'], self::$DSN['pass'], self::$DSN['base']);
         if (mysqli_connect_errno ()) {
             throw new Exception ('DB: ' . mysqli_connect_error (), 500);
         }
