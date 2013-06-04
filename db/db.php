@@ -6,6 +6,8 @@
  * @package DB
  * @version 1.41
  */
+namespace DB; 
+ 
 class DB {
 
     private static $LINK;
