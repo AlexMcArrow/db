@@ -4,7 +4,7 @@
  * @copyright Alex McArrow 2013
  * @author Alex McArrow
  * @package DB
- * @version 1.41.3
+ * @version 1.41.4
  */
 namespace DBI; 
  
