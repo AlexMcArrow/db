@@ -1,5 +1,5 @@
 {
-    "name": "AlexMcArrow/db",
+    "name": "alexmcarrow/db",
     "type": "library",
     "description": "MySQL(i) class",
     "keywords": ["mysql","mysqli"],
