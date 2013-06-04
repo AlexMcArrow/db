@@ -1,0 +1,19 @@
+{
+    "name": "AlexMcArrow/db",
+    "type": "library",
+    "description": "MySQL(i) class",
+    "keywords": ["mysql","mysqli"],
+    "homepage": "https://github.com/AlexMcArrow/db",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex McArrow",
+            "email": "alex.mcarrow@gmail.com",
+            "homepage": "http://mcarrow.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
